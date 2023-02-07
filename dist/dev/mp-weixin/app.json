@@ -1,0 +1,24 @@
+{
+  "pages": [
+    "pages/hot/hot",
+    "pages/webview/webview"
+  ],
+  "subPackages": [
+    {
+      "root": "subpkg",
+      "pages": [
+        "pages/search/search",
+        "pages/login/login"
+      ],
+      "name": "sub-search"
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "usingComponents": {}
+}
